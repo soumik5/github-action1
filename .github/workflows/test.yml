@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  build my checkout code:
+  checkout-job:
     runs-on: ubuntu-latest
     steps:
       - name: checkout current repository
